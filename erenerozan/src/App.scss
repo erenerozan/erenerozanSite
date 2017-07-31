@@ -1,3 +1,30 @@
 .App {
   float: left;
+  width: 100%;
+  .Header{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background: grey;
+    border-style: solid;
+    border-color: white;
+    .Logo{
+      width: 200px;
+      background: red;
+      float: left;
+    }
+    .Menu{
+      width: 700px;
+      background: green;
+      float: right;
+    }
+  }
+  .Content{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background: grey;
+    border-style: solid;
+    border-color:  white;
+  }
 }

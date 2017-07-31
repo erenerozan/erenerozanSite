@@ -1,4 +1,27 @@
 .App {
-  float: left; }
+  float: left;
+  width: 100%; }
+  .App .Header {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background: grey;
+    border-style: solid;
+    border-color: white; }
+    .App .Header .Logo {
+      width: 200px;
+      background: red;
+      float: left; }
+    .App .Header .Menu {
+      width: 700px;
+      background: green;
+      float: right; }
+  .App .Content {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background: grey;
+    border-style: solid;
+    border-color: white; }
 
 /*# sourceMappingURL=App.css.map */
